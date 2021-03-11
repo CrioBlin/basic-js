@@ -31,7 +31,6 @@ module.exports = function getSeason(date) {
   } catch {
     
     if (Object.keys(date).length > 0) {
-      console.log(2)
       throw new Error('Unable to determine the time of year!')
     } 
     
